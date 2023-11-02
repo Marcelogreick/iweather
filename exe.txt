@@ -1,11 +1,4 @@
-  "testMatch": [
-    "**/?(*.)+(test).+(ts|tsx)"
-  ],
-  "testPathIgnorePatterns": [
-    "./__tests__/mocks",
-    "./__tests__/utils",
-    "./__tests__/coverage"
-  ],
+
   "setupFiles": [
     "./__tests__/mocks/libs/async-storage.js", 
     "./__tests__/mocks/libs/react-native-safe-area-context.js"
