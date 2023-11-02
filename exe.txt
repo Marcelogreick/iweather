@@ -1,7 +1,6 @@
   "testMatch": [
     "**/?(*.)+(test).+(ts|tsx)"
   ],
-  "setupFilesAfterEnv": ["@testing-library/jest-native/extend-expect"],
   "testPathIgnorePatterns": [
     "./__tests__/mocks",
     "./__tests__/utils",
