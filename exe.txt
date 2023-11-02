@@ -1,9 +1,4 @@
-
-  "transform": {
-    "^.+\\.jsx?$": "babel-jest",
-    "^.+\\.svg$": "jest-transformer-svg"
-  },
-  "collectCoverageFrom": [
+"collectCoverageFrom": [
     "./src/**/*.{ts,tsx}",
     "!./src/**/styles.ts"
   ],
