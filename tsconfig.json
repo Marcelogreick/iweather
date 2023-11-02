@@ -1,7 +1,12 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "esModuleInterop": true,
     "strict": true,
+    "jsx": "react-jsx",
+    "noImplicitAny": false,
+    "useUnknownInCatchVariables": false,
+    "strictNullChecks": false,
     "baseUrl": "./",
     "paths": {
       "@components/*": [
@@ -40,6 +45,10 @@
       "@__tests__/*": [
         "__tests__/*"
       ],
+      "react": [
+        "./node_modules/@types/react"
+      ]
     },
+    "typeRoots": ["./node_modules/@types"]
   }
 }
