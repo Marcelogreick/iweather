@@ -36,7 +36,8 @@
         "releaseStatus": "draft"
       },
       "ios": {
-        "appleId": "rennan.douglas@rocketseat.team"
+        "appleId": "greick.team",
+        "ascAppId": "xxx"
       }
     }
   }
